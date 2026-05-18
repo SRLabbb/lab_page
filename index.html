@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRLab - 语音识别实验室</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">SRLab</div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="admissions.html">招生简介</a></li>
+            <li><a href="index.html#research">研究方向</a></li>
+            <li><a href="index.html#achievements">科研成果</a></li>
+            <li><a href="advisor.html">导师介绍</a></li>
+            <li><a href="index.html#contact">联系我们</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <canvas id="waveCanvas"></canvas>
+        <div class="hero-content">
+            <p class="hero-kicker">Shaanxi Normal University</p>
+            <h1 class="hero-title">SRLab</h1>
+            <p class="hero-subtitle">Speech Research Laboratory</p>
+            <p class="hero-desc">聚焦语音识别、多模态语音处理、语音生成与语音表征学习。</p>
+            <div class="hero-actions">
+                <a href="admissions.html" class="hero-btn">招生简介</a>
+                <a href="#contact" class="hero-btn hero-btn-secondary">查看联系方式</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="advisor-overview">
+        <div class="container">
+            <h2 class="section-title">导师介绍</h2>
+            <p class="section-intro">实验室负责人长期从事语音处理相关研究，研究工作覆盖语音识别、语音生成与多模态学习。</p>
+            <div class="advisor-profile">
+                <div class="advisor-info">
+                    <div class="advisor-detail">
+                        <h2>张景宣</h2>
+                        <p class="advisor-title">讲师 · 陕西师范大学 人工智能与计算机学院</p>
+                        <div class="advisor-meta">
+                            <span>邮箱：jxzhanggg@snnu.edu.cn</span>
+                            <span>办公地点：文津楼3631</span>
+                        </div>
+                        <p class="advisor-summary">研究方向包括多模态语音处理、语音识别、语音生成、语音无监督预训练等，在 ICASSP、INTERSPEECH、IEEE/ACM TASLP 等发表多篇成果。</p>
+                        <div class="member-links">
+                            <a href="advisor.html">查看详细介绍</a>
+                            <a href="mailto:jxzhanggg@snnu.edu.cn">发送邮件</a>
+                            <a href="https://jxzhanggg.github.io/online-cv" target="_blank">个人主页</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="research">
+        <div class="container">
+            <h2 class="section-title">研究方向</h2>
+            <p class="section-intro">实验室围绕语音信息处理与多模态智能展开研究，强调方法创新与真实场景应用结合。</p>
+            <div class="research-grid">
+                <div class="card">
+                    <h3>语音识别</h3>
+                    <p>聚焦端到端语音识别、复杂环境下的鲁棒识别，以及开放世界场景中的音视频语音识别。</p>
+                </div>
+                <div class="card">
+                    <h3>语音生成</h3>
+                    <p>围绕序列到序列声学建模、非平行语音转换与高自然度语音合成展开研究。</p>
+                </div>
+                <div class="card">
+                    <h3>多模态语音处理</h3>
+                    <p>重点关注音视频表征学习、多模态自蒸馏预训练以及唇语识别等方向。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="achievements">
+        <div class="container">
+            <h2 class="section-title">科研成果</h2>
+            <p class="section-intro">实验室关注国际评测、顶级会议与高水平期刊，在语音领域持续开展有组织的研究工作。</p>
+            <div class="achievement-list">
+                <div class="achievement-item highlight">
+                    <div class="achievement-badge">2025</div>
+                    <div class="achievement-content">
+                        <h3>CHiME-9 语音挑战赛 · 国际第一名</h3>
+                        <p class="achievement-year">国际评测成果</p>
+                        <p class="achievement-desc">在 2025 年 CHiME-9 国际语音分离与识别挑战赛中，与科大讯飞、中国科学技术大学合作获得国际第一名。CHiME 是语音领域具有广泛影响力的国际评测之一。</p>
+                        <div class="achievement-tags">
+                            <span>CHiME-9</span>
+                            <span>科大讯飞</span>
+                            <span>中国科学技术大学</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="admissions-overview">
+        <div class="container">
+            <h2 class="section-title">招生简介</h2>
+            <div class="admission-highlight">
+                <h3>欢迎具有明确科研兴趣的同学联系实验室</h3>
+                <p>实验室面向研究生招生，也欢迎有明确科研规划的本科生提前联系。正式联系前，建议先阅读完整招生简介，确认个人兴趣、投入预期与实验室培养方式是否匹配。</p>
+                <div class="member-links section-links">
+                    <a href="admissions.html">阅读招生简介</a>
+                    <a href="#contact">查看联系方式</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <p class="section-intro">如需进一步了解研究方向或招生安排，可通过以下方式联系实验室。</p>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-label">地址</span>
+                        <p>陕西师范大学 人工智能与计算机学院 文津楼3631</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">邮箱</span>
+                        <p>jxzhanggg@snnu.edu.cn</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">个人主页</span>
+                        <p><a href="https://jxzhanggg.github.io/online-cv" target="_blank">https://jxzhanggg.github.io/online-cv</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">通讯地址</span>
+                        <p>陕西省西安市长安区西长安街620号 邮编：710119</p>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <div class="map-placeholder">陕西师范大学<br>长安校区 文津楼3631</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="resources">
+        <div class="container">
+            <h2 class="section-title">学术资源</h2>
+            <p class="section-intro">以下内容汇总了语音领域常见的会议、期刊与评测，可作为进入本方向的基础参考。</p>
+            <div class="resources-intro">
+                <p>语音处理是人工智能的重要分支，与计算机视觉并列为AI的两大感知技术。语音领域有其独特的学术评价体系和顶级会议期刊，以下是本领域的重要学术资源。</p>
+            </div>
+
+            <div class="resources-grid">
+                <div class="resource-category">
+                    <h3>顶级会议</h3>
+                    <div class="resource-list">
+                        <div class="resource-item">
+                            <div class="resource-name">ICASSP</div>
+                            <div class="resource-desc">IEEE International Conference on Acoustics, Speech and Signal Processing</div>
+                            <span class="pub-badge ccf-b">CCF B</span>
+                            <span class="resource-note">语音信号处理旗舰会议</span>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-name">INTERSPEECH</div>
+                            <div class="resource-desc">Conference of the International Speech Communication Association</div>
+                            <span class="pub-badge ccf-b">CCF B</span>
+                            <span class="resource-note">语音通信领域最大规模会议（2026年升至B类）</span>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-name">ACM Multimedia</div>
+                            <div class="resource-desc">ACM International Conference on Multimedia（含音频多模态方向）</div>
+                            <span class="pub-badge ccf-a">CCF A</span>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-name">ACL / EMNLP</div>
+                            <div class="resource-desc">自然语言处理顶会（含语音-文本多模态）</div>
+                            <span class="pub-badge ccf-a">CCF A</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resource-category">
+                    <h3>顶级期刊</h3>
+                    <div class="resource-list">
+                        <div class="resource-item">
+                            <div class="resource-name">IEEE/ACM TASLP</div>
+                            <div class="resource-desc">Transactions on Audio, Speech, and Language Processing</div>
+                            <span class="pub-badge ccf-b">CCF B</span>
+                            <span class="pub-badge sci-2">SCI 二区</span>
+                            <span class="resource-note">语音领域顶刊 · 声学小类一区</span>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-name">IEEE Signal Processing Letters</div>
+                            <div class="resource-desc">IEEE 信号处理快报</div>
+                            <span class="pub-badge sci-2">SCI 二区</span>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-name">Speech Communication</div>
+                            <div class="resource-desc">Elsevier 语音通信期刊</div>
+                            <span class="pub-badge sci-3">SCI 三区</span>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-name">Computer Speech & Language</div>
+                            <div class="resource-desc">Elsevier 语音与语言期刊</div>
+                            <span class="pub-badge sci-3">SCI 三区</span>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-name">Pattern Recognition</div>
+                            <div class="resource-desc">Elsevier 模式识别期刊</div>
+                            <span class="pub-badge ccf-b">CCF B</span>
+                            <span class="pub-badge sci-1">SCI 一区</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resource-category">
+                    <h3>重要竞赛与评测</h3>
+                    <div class="resource-list">
+                        <div class="resource-item">
+                            <div class="resource-name">CHiME Challenge</div>
+                            <div class="resource-desc">复杂环境下的语音分离与识别挑战赛</div>
+                            <span class="resource-note">业界标杆评测</span>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-name">VoxCeleb / VoxSRC</div>
+                            <div class="resource-desc">说话人识别与验证竞赛</div>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-name">Blizzard Challenge</div>
+                            <div class="resource-desc">语音合成质量评测</div>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-name">Voice Conversion Challenge</div>
+                            <div class="resource-desc">语音转换技术竞赛</div>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-name">DCASE Challenge</div>
+                            <div class="resource-desc">声音事件检测与分类挑战赛</div>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-name">M2MeT / AliMeeting</div>
+                            <div class="resource-desc">多通道多方会议转录挑战赛</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resources-note">
+                <h4>关于语音领域的学术评级</h4>
+                <p>语音处理领域的学术评价体系与计算机视觉有所不同。ICASSP 和 INTERSPEECH 是语音领域公认的两大旗舰会议。INTERSPEECH 在 2026 年 CCF 最新评级中已升至 B 类。IEEE/ACM TASLP 是语音领域的顶级期刊（中科院大类二区，声学小类一区），在语音研究者中认可度极高。SCI 分区以中科院大类分区为准，部分期刊在声学等小类中分区更高，需结合领域特点综合考量。</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 SRLab. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
